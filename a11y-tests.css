@@ -29,7 +29,7 @@
 }
 
 /* Remove animations */
-.a11y-test-no-animation * {
+.a11y-tests-no-animation * {
   transition: none !important;
   animation: none !important;
 }

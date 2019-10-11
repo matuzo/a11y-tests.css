@@ -1,0 +1,35 @@
+/* Settings */
+
+:root {
+    --blur: 2px;
+    --font-size: 20px;
+}
+
+/* Check if the page works without colors */
+.a11y-tests-grayscale {
+  filter: grayscale(100%) !important;
+}
+
+/* Simulate blurred vision. */
+.a11y-tests-blur {
+    filter: blur(2px) !important;
+    filter: blur(var(--blur)) !important;
+}
+
+/* Force yourself to test without a mouse */
+.a11y-tests-no-mouse *,
+.a11y-tests-no-mouse *:focus {
+  cursor: none !important;
+}
+
+/* Large text */
+.a11y-tests-large-text {
+    font-size: 20px !important;
+    font-size: var(--font-size) !important;
+}
+
+/* Remove animations */
+.a11y-test-no-animation * {
+  transition: none !important;
+  animation: none !important;
+}

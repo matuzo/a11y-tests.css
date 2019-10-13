@@ -61,7 +61,7 @@ Increases the base font size. This test will only work if you're using `rem` in 
 </html>
 ```
 
-![matuzo.at with large text](grayscale.png)
+![matuzo.at with large text](large-text.png)
 
 ## Large text `.a11y-tests-no-animation`
 

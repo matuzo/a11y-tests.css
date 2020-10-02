@@ -19,7 +19,7 @@
 /* Force yourself to test without a mouse */
 .a11y-tests-no-mouse,
 .a11y-tests-no-mouse *,
-.a11y-tests-no-mouse *:focus {
+.a11y-tests-no-mouse *:hover {
   cursor: none !important;
 }
 
